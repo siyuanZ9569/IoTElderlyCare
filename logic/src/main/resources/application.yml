@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://nxgendb.cjxdmffbin3r.us-east-2.rds.amazonaws.com/nxgenDb
+    username: nxgen
+    password: bvj3ysf2m
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
